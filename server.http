@@ -1,0 +1,166 @@
+
+### Register User
+POST http://localhost:5000/api/users/register
+Content-Type: application/json
+
+{
+  "name": "Ajay Kumar",
+  "email": "ajpostbox13@gmail.com",
+  "password": "ajay@123"
+}
+
+###
+
+### Login User
+POST http://localhost:5000/api/users/login
+Content-Type: application/json
+
+{
+  "email": "ajpostbox13@gmail.com",
+  "password": "ajay@123"
+}
+
+###
+
+### Add Task 1: Buy groceries
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGJlMjZiMWRhOTEyZjExZWM3YzY5ZCIsImlhdCI6MTczNzIyMTI1MSwiZXhwIjoxNzM5ODEzMjUxfQ.nQm7u3kKT5fD2XaAMEv7MuQ5LuwUCmvyJXJLDglI2hQ
+
+{
+  "name": "Buy groceries",
+  "isCompleted": false
+}
+
+
+###
+
+### Add Task 2: Complete project work
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGJlMjZiMWRhOTEyZjExZWM3YzY5ZCIsImlhdCI6MTczNzIyMTI1MSwiZXhwIjoxNzM5ODEzMjUxfQ.nQm7u3kKT5fD2XaAMEv7MuQ5LuwUCmvyJXJLDglI2hQ
+
+{
+  "name": "Complete project work",
+  "isCompleted": false
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Get All Tasks
+GET http://localhost:5000/api/tasks
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGJlMjZiMWRhOTEyZjExZWM3YzY5ZCIsImlhdCI6MTczNzIyMTI1MSwiZXhwIjoxNzM5ODEzMjUxfQ.nQm7u3kKT5fD2XaAMEv7MuQ5LuwUCmvyJXJLDglI2hQ
+
+
+
+### Create a New Task
+
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3OGJlMjZiMWRhOTEyZjExZWM3YzY5ZCIsImlhdCI6MTczNzIyMTI1MSwiZXhwIjoxNzM5ODEzMjUxfQ.nQm7u3kKT5fD2XaAMEv7MuQ5LuwUCmvyJXJLDglI2hQ
+{
+  "name": "Learn Node.js",
+  "completed": false
+}
+
+### Task 1: Buy Groceries
+
+
+### Task 2: Go for a Run
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{
+  "name": "Go for a Run",
+  "completed": false
+}
+
+### Task 3: Clean the House
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{
+  "name": "Clean the House",
+  "completed": false
+}
+
+### Task 4: Call Mom
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{
+  "name": "Call Mom",
+  "completed": false
+}
+
+### Task 5: Pay Utility Bills
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{
+  "name": "Pay Utility Bills",
+  "completed": false
+}
+
+### Task 6: Prepare Dinner
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{
+  "name": "Prepare Dinner",
+  "completed": false
+}
+
+### Task 7: Organize Closet
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{
+  "name": "Organize Closet",
+  "completed": false
+}
+
+### Task 8: Schedule Dentist Appointment
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{
+  "name": "Schedule Dentist Appointment",
+  "completed": false
+}
+
+### Task 9: Plan Weekend Trip
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+
+{
+  "name": "Plan Weekend Trip",
+  "completed": false
+}
+
+### Task 10: Read a Book
+POST http://localhost:5000/api/tasks
+Content-Type: application/json
+
+{
+  "name": "Read a Book",
+  "completed": false
+}
+
